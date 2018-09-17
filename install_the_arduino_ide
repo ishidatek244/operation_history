@@ -1,0 +1,4 @@
+$ tar -xvf arduino-1.8.7-linux64.tar.xz
+$ sudo mv arduino-1.8.7 /opt/
+$ cd /opt/arduino-1.8.7
+$ ./install.sh
