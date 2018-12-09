@@ -1,0 +1,15 @@
+pi@raspberrypi:~ $ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 9.4 (stretch)
+Release:	9.4
+Codename:	stretch
+pi@raspberrypi:~ $ sudo apt update
+pi@raspberrypi:~ $ sudo apt install python-pexpect
+pi@raspberrypi:~ $ sudo apt install libusb-dev
+pi@raspberrypi:~ $ sudo apt install libdbus-1-dev
+pi@raspberrypi:~ $ sudo apt install libglib2.0-dev
+pi@raspberrypi:~ $ sudo apt install libudev-dev
+pi@raspberrypi:~ $ sudo apt install libical-dev
+pi@raspberrypi:~ $ sudo apt install libreadline-dev
+pi@raspberrypi:~ $ sudo pip install bluepy
