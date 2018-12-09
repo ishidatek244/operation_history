@@ -13,3 +13,401 @@ pi@raspberrypi:~ $ sudo apt install libudev-dev
 pi@raspberrypi:~ $ sudo apt install libical-dev
 pi@raspberrypi:~ $ sudo apt install libreadline-dev
 pi@raspberrypi:~ $ sudo pip install bluepy
+pi@raspberrypi:~/switchbot/python-host $ sudo apt install  python3-pip
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+python3-pip はすでに最新バージョン (9.0.1-2+rpt2) です。
+アップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 166 個。
+pi@raspberrypi:~/switchbot/python-host $ sudo pip3 install pybluez
+Collecting pybluez
+  Downloading https://www.piwheels.org/simple/pybluez/PyBluez-0.22-cp35-cp35m-linux_armv7l.whl (106kB)
+    100% |????????????????????????????????| 112kB 169kB/s 
+Installing collected packages: pybluez
+Successfully installed pybluez-0.22
+pi@raspberrypi:~/switchbot/python-host $ sudo apt install libboost-python-dev
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+以下の追加パッケージがインストールされます:
+  libboost-python1.62-dev libboost-python1.62.0 libboost1.62-dev
+提案パッケージ:
+  libboost1.62-doc gccxml libboost-atomic1.62-dev libboost-chrono1.62-dev libboost-context1.62-dev libboost-coroutine1.62-dev
+  libboost-date-time1.62-dev libboost-exception1.62-dev libboost-fiber1.62-dev libboost-filesystem1.62-dev libboost-graph1.62-dev
+  libboost-graph-parallel1.62-dev libboost-iostreams1.62-dev libboost-locale1.62-dev libboost-log1.62-dev libboost-math1.62-dev
+  libboost-mpi1.62-dev libboost-mpi-python1.62-dev libboost-program-options1.62-dev libboost-random1.62-dev libboost-regex1.62-dev
+  libboost-serialization1.62-dev libboost-signals1.62-dev libboost-system1.62-dev libboost-test1.62-dev libboost-thread1.62-dev
+  libboost-timer1.62-dev libboost-type-erasure1.62-dev libboost-wave1.62-dev libboost1.62-tools-dev libmpfrc++-dev libntl-dev
+以下のパッケージが新たにインストールされます:
+  libboost-python-dev libboost-python1.62-dev libboost-python1.62.0 libboost1.62-dev
+アップグレード: 0 個、新規インストール: 4 個、削除: 0 個、保留: 166 個。
+7,289 kB のアーカイブを取得する必要があります。
+この操作後に追加で 119 MB のディスク容量が消費されます。
+続行しますか? [Y/n] y
+取得:1 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost1.62-dev armhf 1.62.0+dfsg-4 [7,009 kB]
+取得:2 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-python1.62.0 armhf 1.62.0+dfsg-4 [120 kB]
+取得:3 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-python1.62-dev armhf 1.62.0+dfsg-4 [156 kB]
+取得:4 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-python-dev armhf 1.62.0.1+b4 [4,086 B]
+7,289 kB を 4秒 で取得しました (1,666 kB/s)    
+以前に未選択のパッケージ libboost1.62-dev:armhf を選択しています。
+(データベースを読み込んでいます ... 現在 116486 個のファイルとディレクトリがインストールされています。)
+.../libboost1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-python1.62.0 を選択しています。
+.../libboost-python1.62.0_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-python1.62.0 (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-python1.62-dev を選択しています。
+.../libboost-python1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-python1.62-dev (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-python-dev を選択しています。
+.../libboost-python-dev_1.62.0.1+b4_armhf.deb を展開する準備をしています ...
+libboost-python-dev (1.62.0.1+b4) を展開しています...
+libboost1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libc-bin (2.24-11+deb9u3) のトリガを処理しています ...
+man-db (2.7.6.1-2) のトリガを処理しています ...
+libboost-python1.62.0 (1.62.0+dfsg-4) を設定しています ...
+libboost-python1.62-dev (1.62.0+dfsg-4) を設定しています ...
+libboost-python-dev (1.62.0.1+b4) を設定しています ...
+libc-bin (2.24-11+deb9u3) のトリガを処理しています ...
+pi@raspberrypi:~/switchbot/python-host $ sudo apt install libboost-thread-dev
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+以下の追加パッケージがインストールされます:
+  libboost-atomic1.62-dev libboost-atomic1.62.0 libboost-chrono1.62-dev libboost-chrono1.62.0 libboost-date-time1.62-dev
+  libboost-serialization1.62-dev libboost-serialization1.62.0 libboost-system1.62-dev libboost-thread1.62-dev
+以下のパッケージが新たにインストールされます:
+  libboost-atomic1.62-dev libboost-atomic1.62.0 libboost-chrono1.62-dev libboost-chrono1.62.0 libboost-date-time1.62-dev
+  libboost-serialization1.62-dev libboost-serialization1.62.0 libboost-system1.62-dev libboost-thread-dev libboost-thread1.62-dev
+アップグレード: 0 個、新規インストール: 10 個、削除: 0 個、保留: 166 個。
+568 kB のアーカイブを取得する必要があります。
+この操作後に追加で 3,334 kB のディスク容量が消費されます。
+続行しますか? [Y/n] y
+取得:1 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-atomic1.62.0 armhf 1.62.0+dfsg-4 [31.1 kB]
+取得:2 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-atomic1.62-dev armhf 1.62.0+dfsg-4 [29.5 kB]
+取得:3 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-chrono1.62.0 armhf 1.62.0+dfsg-4 [35.7 kB]
+取得:4 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-chrono1.62-dev armhf 1.62.0+dfsg-4 [37.4 kB]
+取得:5 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-serialization1.62.0 armhf 1.62.0+dfsg-4 [105 kB]  
+取得:6 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-serialization1.62-dev armhf 1.62.0+dfsg-4 [170 kB]
+取得:7 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-date-time1.62-dev armhf 1.62.0+dfsg-4 [51.1 kB]   
+取得:8 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-system1.62-dev armhf 1.62.0+dfsg-4 [33.1 kB]      
+取得:9 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-thread1.62-dev armhf 1.62.0+dfsg-4 [71.3 kB]      
+取得:10 http://ftp.tsukuba.wide.ad.jp/Linux/raspbian/raspbian stretch/main armhf libboost-thread-dev armhf 1.62.0.1+b4 [3,724 B]           
+568 kB を 9秒 で取得しました (60.3 kB/s)                                                                                                   
+以前に未選択のパッケージ libboost-atomic1.62.0:armhf を選択しています。
+(データベースを読み込んでいます ... 現在 129844 個のファイルとディレクトリがインストールされています。)
+.../0-libboost-atomic1.62.0_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-atomic1.62.0:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-atomic1.62-dev:armhf を選択しています。
+.../1-libboost-atomic1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-atomic1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-chrono1.62.0:armhf を選択しています。
+.../2-libboost-chrono1.62.0_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-chrono1.62.0:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-chrono1.62-dev:armhf を選択しています。
+.../3-libboost-chrono1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-chrono1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-serialization1.62.0:armhf を選択しています。
+.../4-libboost-serialization1.62.0_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-serialization1.62.0:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-serialization1.62-dev:armhf を選択しています。
+.../5-libboost-serialization1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-serialization1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-date-time1.62-dev:armhf を選択しています。
+.../6-libboost-date-time1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-date-time1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-system1.62-dev:armhf を選択しています。
+.../7-libboost-system1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-system1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-thread1.62-dev:armhf を選択しています。
+.../8-libboost-thread1.62-dev_1.62.0+dfsg-4_armhf.deb を展開する準備をしています ...
+libboost-thread1.62-dev:armhf (1.62.0+dfsg-4) を展開しています...
+以前に未選択のパッケージ libboost-thread-dev:armhf を選択しています。
+.../9-libboost-thread-dev_1.62.0.1+b4_armhf.deb を展開する準備をしています ...
+libboost-thread-dev:armhf (1.62.0.1+b4) を展開しています...
+libboost-serialization1.62.0:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-serialization1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libc-bin (2.24-11+deb9u3) のトリガを処理しています ...
+libboost-system1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-atomic1.62.0:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-chrono1.62.0:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-atomic1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-date-time1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-chrono1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-thread1.62-dev:armhf (1.62.0+dfsg-4) を設定しています ...
+libboost-thread-dev:armhf (1.62.0.1+b4) を設定しています ...
+libc-bin (2.24-11+deb9u3) のトリガを処理しています ...
+pi@raspberrypi:~/switchbot/python-host $ sudo pip3 install gattlib
+Collecting gattlib
+  Downloading https://files.pythonhosted.org/packages/be/2f/5b1aecec551b42b59d8b399ad444b5672972efb590ca83d784dbe616a3e1/gattlib-0.20150805.tar.gz (1.7MB)
+    100% |????????????????????????????????| 1.7MB 153kB/s 
+Building wheels for collected packages: gattlib
+  Running setup.py bdist_wheel for gattlib ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-3nbzhsgq/gattlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpeoicui0tpip-wheel- --python-tag cp35:
+  running bdist_wheel
+  running build
+  running build_ext
+  building 'gattlib' extension
+  creating build
+  creating build/temp.linux-armv7l-3.5
+  creating build/temp.linux-armv7l-3.5/src
+  creating build/temp.linux-armv7l-3.5/src/bluez
+  creating build/temp.linux-armv7l-3.5/src/bluez/lib
+  creating build/temp.linux-armv7l-3.5/src/bluez/attrib
+  creating build/temp.linux-armv7l-3.5/src/bluez/src
+  creating build/temp.linux-armv7l-3.5/src/bluez/src/shared
+  creating build/temp.linux-armv7l-3.5/src/bluez/btio
+  arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.5-RUbMX3/python3.5-3.5.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION="5.25" -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -Isrc/bluez -I/usr/include/python3.5m -c src/gattservices.cpp -o build/temp.linux-armv7l-3.5/src/gattservices.o
+  cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+  src/gattservices.cpp:6:33: fatal error: bluetooth/bluetooth.h: そのようなファイルやディレクトリはありません
+   #include <bluetooth/bluetooth.h>
+                                   ^
+  compilation terminated.
+  error: command 'arm-linux-gnueabihf-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for gattlib
+  Running setup.py clean for gattlib
+Failed to build gattlib
+Installing collected packages: gattlib
+  Running setup.py install for gattlib ... error
+    Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-3nbzhsgq/gattlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-7c8f9sy_-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_ext
+    building 'gattlib' extension
+    creating build
+    creating build/temp.linux-armv7l-3.5
+    creating build/temp.linux-armv7l-3.5/src
+    creating build/temp.linux-armv7l-3.5/src/bluez
+    creating build/temp.linux-armv7l-3.5/src/bluez/lib
+    creating build/temp.linux-armv7l-3.5/src/bluez/attrib
+    creating build/temp.linux-armv7l-3.5/src/bluez/src
+    creating build/temp.linux-armv7l-3.5/src/bluez/src/shared
+    creating build/temp.linux-armv7l-3.5/src/bluez/btio
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.5-RUbMX3/python3.5-3.5.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION="5.25" -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -Isrc/bluez -I/usr/include/python3.5m -c src/gattservices.cpp -o build/temp.linux-armv7l-3.5/src/gattservices.o
+    cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+    src/gattservices.cpp:6:33: fatal error: bluetooth/bluetooth.h: そのようなファイルやディレクトリはありません
+     #include <bluetooth/bluetooth.h>
+                                     ^
+    compilation terminated.
+    error: command 'arm-linux-gnueabihf-gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-3nbzhsgq/gattlib/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-7c8f9sy_-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-3nbzhsgq/gattlib/
+pi@raspberrypi:~/switchbot/python-host $ cd
+pi@raspberrypi:~ $ pwd
+/home/pi
+pi@raspberrypi:~ $ sudo pip3 download gattlib
+Collecting gattlib
+  Using cached https://files.pythonhosted.org/packages/be/2f/5b1aecec551b42b59d8b399ad444b5672972efb590ca83d784dbe616a3e1/gattlib-0.20150805.tar.gz
+  Saved ./gattlib-0.20150805.tar.gz
+Successfully downloaded gattlib
+pi@raspberrypi:~ $ ls
+Applications  Desktop    Downloads  Music     Public     Videos                     python_games
+Arduino       Documents  MagPi      Pictures  Templates  gattlib-0.20150805.tar.gz  switchbot
+pi@raspberrypi:~ $ tar zxvf ./gattlib-0.20150805.tar.gz 
+gattlib-0.20150805/
+gattlib-0.20150805/gattlib.egg-info/
+gattlib-0.20150805/gattlib.egg-info/dependency_links.txt
+gattlib-0.20150805/gattlib.egg-info/PKG-INFO
+gattlib-0.20150805/gattlib.egg-info/SOURCES.txt
+gattlib-0.20150805/gattlib.egg-info/top_level.txt
+gattlib-0.20150805/MANIFEST.in
+gattlib-0.20150805/PKG-INFO
+gattlib-0.20150805/setup.cfg
+gattlib-0.20150805/setup.py
+gattlib-0.20150805/src/
+gattlib-0.20150805/src/att.o
+gattlib-0.20150805/src/beacon.cpp
+gattlib-0.20150805/src/beacon.h
+gattlib-0.20150805/src/beacon.o
+gattlib-0.20150805/src/bindings.cpp
+gattlib-0.20150805/src/bindings.o
+gattlib-0.20150805/src/bluez/
+gattlib-0.20150805/src/bluez/attrib/
+gattlib-0.20150805/src/bluez/attrib/att.c
+gattlib-0.20150805/src/bluez/attrib/att.h
+gattlib-0.20150805/src/bluez/attrib/gatt.c
+gattlib-0.20150805/src/bluez/attrib/gatt.h
+gattlib-0.20150805/src/bluez/attrib/gattrib.c
+gattlib-0.20150805/src/bluez/attrib/gattrib.h
+gattlib-0.20150805/src/bluez/attrib/utils.c
+gattlib-0.20150805/src/bluez/attrib/utils.h
+gattlib-0.20150805/src/bluez/btio/
+gattlib-0.20150805/src/bluez/btio/btio.c
+gattlib-0.20150805/src/bluez/btio/btio.h
+gattlib-0.20150805/src/bluez/lib/
+gattlib-0.20150805/src/bluez/lib/uuid.c
+gattlib-0.20150805/src/bluez/lib/uuid.h
+gattlib-0.20150805/src/bluez/src/
+gattlib-0.20150805/src/bluez/src/log.c
+gattlib-0.20150805/src/bluez/src/log.h
+gattlib-0.20150805/src/bluez/src/shared/
+gattlib-0.20150805/src/bluez/src/shared/crypto.c
+gattlib-0.20150805/src/bluez/src/shared/crypto.h
+gattlib-0.20150805/src/bluez/src/shared/util.h
+gattlib-0.20150805/src/btio.o
+gattlib-0.20150805/src/crypto.o
+gattlib-0.20150805/src/debug.h
+gattlib-0.20150805/src/event.hpp
+gattlib-0.20150805/src/gatt.o
+gattlib-0.20150805/src/gattlib.cpp
+gattlib-0.20150805/src/gattlib.cpp.orig
+gattlib-0.20150805/src/gattlib.h
+gattlib-0.20150805/src/gattlib.o
+gattlib-0.20150805/src/gattlib.so
+gattlib-0.20150805/src/gattrib.o
+gattlib-0.20150805/src/gattservices.cpp
+gattlib-0.20150805/src/gattservices.cpp.orig
+gattlib-0.20150805/src/gattservices.h
+gattlib-0.20150805/src/gattservices.o
+gattlib-0.20150805/src/log.o
+gattlib-0.20150805/src/Makefile
+gattlib-0.20150805/src/utils.o
+gattlib-0.20150805/src/uuid.o
+pi@raspberrypi:~ $ cd gattlib-0.20150805/
+pi@raspberrypi:~/gattlib-0.20150805 $ ls
+MANIFEST.in  PKG-INFO  gattlib.egg-info  setup.cfg  setup.py  src
+pi@raspberrypi:~/gattlib-0.20150805 $ sed -ie 's/boost_python-py34/boost_python-py35/' setup.py
+pi@raspberrypi:~/gattlib-0.20150805 $ sudo pip3 install .
+Processing /home/pi/gattlib-0.20150805
+Building wheels for collected packages: gattlib
+  Running setup.py bdist_wheel for gattlib ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-643_0gvw-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpqvoc2boypip-wheel- --python-tag cp35:
+  running bdist_wheel
+  running build
+  running build_ext
+  building 'gattlib' extension
+  creating build
+  creating build/temp.linux-armv7l-3.5
+  creating build/temp.linux-armv7l-3.5/src
+  creating build/temp.linux-armv7l-3.5/src/bluez
+  creating build/temp.linux-armv7l-3.5/src/bluez/lib
+  creating build/temp.linux-armv7l-3.5/src/bluez/attrib
+  creating build/temp.linux-armv7l-3.5/src/bluez/src
+  creating build/temp.linux-armv7l-3.5/src/bluez/src/shared
+  creating build/temp.linux-armv7l-3.5/src/bluez/btio
+  arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.5-RUbMX3/python3.5-3.5.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION="5.25" -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -Isrc/bluez -I/usr/include/python3.5m -c src/gattservices.cpp -o build/temp.linux-armv7l-3.5/src/gattservices.o
+  cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+  src/gattservices.cpp:6:33: fatal error: bluetooth/bluetooth.h: そのようなファイルやディレクトリはありません
+   #include <bluetooth/bluetooth.h>
+                                   ^
+  compilation terminated.
+  error: command 'arm-linux-gnueabihf-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for gattlib
+  Running setup.py clean for gattlib
+Failed to build gattlib
+Installing collected packages: gattlib
+  Running setup.py install for gattlib ... error
+    Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-643_0gvw-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-t6s0nds5-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_ext
+    building 'gattlib' extension
+    creating build
+    creating build/temp.linux-armv7l-3.5
+    creating build/temp.linux-armv7l-3.5/src
+    creating build/temp.linux-armv7l-3.5/src/bluez
+    creating build/temp.linux-armv7l-3.5/src/bluez/lib
+    creating build/temp.linux-armv7l-3.5/src/bluez/attrib
+    creating build/temp.linux-armv7l-3.5/src/bluez/src
+    creating build/temp.linux-armv7l-3.5/src/bluez/src/shared
+    creating build/temp.linux-armv7l-3.5/src/bluez/btio
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fdebug-prefix-map=/build/python3.5-RUbMX3/python3.5-3.5.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION="5.25" -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -Isrc/bluez -I/usr/include/python3.5m -c src/gattservices.cpp -o build/temp.linux-armv7l-3.5/src/gattservices.o
+    cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+    src/gattservices.cpp:6:33: fatal error: bluetooth/bluetooth.h: そのようなファイルやディレクトリはありません
+     #include <bluetooth/bluetooth.h>
+                                     ^
+    compilation terminated.
+    error: command 'arm-linux-gnueabihf-gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-643_0gvw-build/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-t6s0nds5-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-643_0gvw-build/
+
+pi@raspberrypi:~ $ sudo apt install libbluetooth3-dev
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+注意、'libbluetooth3-dev' の代わりに 'libbluetooth-dev' を選択します
+以下のパッケージが新たにインストールされます:
+  libbluetooth-dev
+アップグレード: 0 個、新規インストール: 1 個、削除: 0 個、保留: 166 個。
+181 kB のアーカイブを取得する必要があります。
+この操作後に追加で 519 kB のディスク容量が消費されます。
+取得:1 http://archive.raspberrypi.org/debian stretch/main armhf libbluetooth-dev armhf 5.43-2+rpt2+deb9u2 [181 kB]
+181 kB を 6秒 で取得しました (30.2 kB/s)                                                                                                   
+以前に未選択のパッケージ libbluetooth-dev を選択しています。
+(データベースを読み込んでいます ... 現在 129899 個のファイルとディレクトリがインストールされています。)
+.../libbluetooth-dev_5.43-2+rpt2+deb9u2_armhf.deb を展開する準備をしています ...
+libbluetooth-dev (5.43-2+rpt2+deb9u2) を展開しています...
+libbluetooth-dev (5.43-2+rpt2+deb9u2) を設定しています ...
+pi@raspberrypi:~/gattlib-0.20150805 $ sudo pip3 install .
+Processing /home/pi/gattlib-0.20150805
+Building wheels for collected packages: gattlib
+  Running setup.py bdist_wheel for gattlib ... done
+  Stored in directory: /root/.cache/pip/wheels/2b/2d/d2/d62bdc868bb470d7b7e2fa672805652c9e57ff271d2ba6a8ea
+Successfully built gattlib
+Installing collected packages: gattlib
+Successfully installed gattlib-0.20150805
+pi@raspberrypi:~/gattlib-0.20150805 $ cd ./switchbot
+pi@raspberrypi:~/switchbot $ ls
+python-host
+pi@raspberrypi:~/switchbot $ cd python-host/
+pi@raspberrypi:~/switchbot/python-host $ python3 switchbot_py3.py --help
+usage: switchbot_py3.py [-h] [--scan] [--scan-timeout SCAN_TIMEOUT]
+                        [--connect-timeout CONNECT_TIMEOUT] [--device DEVICE]
+                        [--interface INTERFACE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --scan, -s            Run Switchbot in scan mode - scan devices to control
+  --scan-timeout SCAN_TIMEOUT
+                        Device scan timeout (default: 2 seconds)
+  --connect-timeout CONNECT_TIMEOUT
+                        Device connection timeout (default: 5 seconds)
+  --device DEVICE, -d DEVICE
+                        Specify the address of a device to control
+  --interface INTERFACE, -i INTERFACE
+                        Name of the bluetooth adapter (default: hci0 or
+                        whichever is the default)
+pi@raspberrypi:~/switchbot/python-host $ python3 switchbot_py3.py --scan
+Traceback (most recent call last):
+  File "switchbot_py3.py", line 109, in <module>
+    main()
+  File "switchbot_py3.py", line 81, in main
+    devices = scanner.scan()
+  File "switchbot_py3.py", line 22, in scan
+    devices = service.discover(self.timeout_secs)
+RuntimeError: Set scan parameters failed (are you root?)
+pi@raspberrypi:~/switchbot/python-host $ sudo python3 switchbot_py3.py --scan
+Found 2 devices: ['CB:F5:ED:XX:XX:XX', '94:E3:6D:YY:YY:YY']
+Enter the number of the device you want to control:
+	0	CB:F5:ED:XX:XX:XX
+	1	94:E3:6D:YY:YY:YY
+0
+Connected!
+Command execution successful
+pi@raspberrypi:~/switchbot/python-host $ sudo python3 switchbot_py3.py --device CB:F5:ED:XX:XX:XX 
+Connected!
+Command execution successful
+pi@raspberrypi:~/switchbot/python-host $ sudo python switchbot.py
+Usage: "sudo python switchbot.py [mac_addr  cmd]" or "sudo python switchbot.py"
+Start scanning...
+scan timeout
+No SwitchBot nearby, exit
+pi@raspberrypi:~/switchbot/python-host $ python switchbot.py CB:F5:ED:XX:XX:XX Press
+Usage: "sudo python switchbot.py [mac_addr  cmd]" or "sudo python switchbot.py"
+Preparing to connect.
+Trigger complete
+pi@raspberrypi:~/switchbot/python-host $ python switchbot.py CB:F5:ED:XX:XX:XX Turn On
+Usage: "sudo python switchbot.py [mac_addr  cmd]" or "sudo python switchbot.py"
+Preparing to connect.
+Trigger complete
+pi@raspberrypi:~/switchbot/python-host $ python switchbot.py CB:F5:ED:XX:XX:XX Turn Off
+Usage: "sudo python switchbot.py [mac_addr  cmd]" or "sudo python switchbot.py"
+Preparing to connect.
+Trigger complete
+
